@@ -1,0 +1,33 @@
+.shareblock{
+    border-bottom: 1px solid #d6d6d6;
+    border-top: 1px solid #d6d6d6;
+}
+.shareblock__list{
+    list-style: none;
+    padding: 0;
+    margin: 14px 0;
+    text-align: center;
+}
+.shareblock__item{
+    display: inline-block;
+    margin: 0 40px;
+}
+.shareblock__link{
+    display: block;
+    text-decoration: none;
+}
+.shareblock__circle{
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #b8a9a4;
+    float: left;
+}
+.shareblock__text{
+    display: inline-block;
+    color: #4d4d4d;
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 7px;
+    text-transform: uppercase;
+    font-size: 11px;
+}

@@ -6,10 +6,16 @@
 .breadcrumbs{
     line-height: 30px;
 }
+.breadcrumbs__iconhome{
+    text-decoration: none;
+}
 .breadcrumbs__arrow{
     color: #79706d;
 }
 .breadcrumbs__link{
     color: #79706d;
     text-decoration: none;
+}
+.breadcrumbs__link:hover{
+    text-decoration: underline;
 }

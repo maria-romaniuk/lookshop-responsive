@@ -6,7 +6,9 @@
 }
 .icon_user{
     color: #666666;
-    padding-left: 4px;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 15px;
 }
 .icon_search{
     font-size: 15px;
@@ -20,3 +22,22 @@
     height: 21px;
     display: inline-block;
 }
+.icon_mainnavdown{
+   padding-left: 2%;
+}
+
+
+.icon_sharesocial{
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    display: block;
+    color: #b8a9a4;
+    line-height: 45px;
+}
+
+.icon_arrow{
+    color: white;
+    text-align: center;
+}
+

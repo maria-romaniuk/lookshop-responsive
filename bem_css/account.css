@@ -12,7 +12,6 @@
 .account__item{
     display: inline-block;
     color: white;
-    padding: 0 16px;
     border-right: 1px solid #444444;
     border-left: 1px solid #444444;
 }
@@ -22,9 +21,24 @@
 
 .account__dropdown{
     text-transform: uppercase;
+    padding: 0 16px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+.account__dropdownitem{
+
 }
 .account__itemlink{
+    display: block;
+    padding: 0 16px;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+    transition: all .3s linear;
+}
+.account__itemlink:hover{
+    color: #ffa687;
+}
+.account__dropdown:hover{
+    color: #ffa687;
 }

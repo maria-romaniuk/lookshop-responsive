@@ -9,10 +9,11 @@
 }
 .mainnav__item{
     display: inline-block;
-    padding: 0 14px;
 }
 
 .mainnav__link{
+    padding: 0 14px;
     text-decoration: none;
     color: black;
+    display: block;
 }

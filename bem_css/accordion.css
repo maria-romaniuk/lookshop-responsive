@@ -1,0 +1,39 @@
+.accordion{
+    font-size: 14px;
+}
+.accordion__list{
+    list-style: none;
+}
+.accordion__nav{
+
+}
+.accordion__nav_lighterpink{
+    background: #ffd5c6;
+}
+.accordion__nav_lightpink{
+    background: #ffcab8;
+}
+.accordion__nav_pink{
+    background: #ffae92;
+
+}
+.accordion__nav_darkpink{
+    background: #ffa687;
+
+}
+.accordion__nav_darkestpink{
+    background: #fd926d;
+}
+
+.accordion__icon{
+    width: 22px;
+    height: 22px;
+    border: 1px solid white;
+    background: #f2b9a4;
+}
+.accordion__link{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    line-height: 50px;
+}

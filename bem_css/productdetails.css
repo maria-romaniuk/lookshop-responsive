@@ -1,0 +1,142 @@
+.productdetails{
+    margin-top: 2%;
+}
+.productdetails__imgbox{
+    float: left;
+    width: 40%;
+}
+.productdetails__img{
+
+}
+.productdetails__img-big{
+
+}
+.productdetails__imglist{
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+.productdetails__imgsmall{
+    display: inline-block;
+    margin-right: 9px;
+}
+.productdetails__imgsmall_nomargin{
+    margin-right: 0;
+}
+.productdetails__img-sm{
+
+}
+.productdetails__info{
+    float: right;
+    font-size: 12px;
+    width: 60%;
+}
+.productdetails__backlink{
+    line-height: 3em;
+    border-bottom: 1px solid #d6d6d6;
+}
+.productdetails__backlink-icon{
+
+}
+.productdetails__backlink-text{
+    text-decoration: none;
+    color: #8f8f8f;
+}
+.productdetails__backlink-text:hover{
+    text-decoration: underline;
+}
+.productdetails__backlink-textcolor{
+    color: #fd926d;
+}
+.productdetails__infotext{
+
+}
+.productdetails__title{
+    font-weight: 400;
+    font-size: 20px;
+}
+.productdetails__pricebox{
+    line-height: 35px;
+
+}
+.productdetails__price{
+    float: left;
+    font-size: 24px;
+    color: #fd926d;
+}
+.productdetails__reviews{
+    float: right;
+}
+.productdetails__reviews-text{
+    display: inline-block;
+    color: #8f8f8f;
+    margin-right: 3px;
+}
+.productdetails__reviews-scale{
+    display: inline-block;
+}
+.productdetails__scale-list{
+    list-style: none;
+    padding: 0;
+}
+.productdetails__scale-item{
+    width: 9px;
+    height: 9px;
+    float: left;
+    padding: 0 0.5px;
+}
+.productdetails__scale-item_black{
+    background: url("../img/blackquadrate.png") no-repeat;
+}
+.productdetails__scale-item_halfgrey{
+    background: url("../img/halfblack-grey.png") no-repeat;
+}
+.productdetails__scale-item_grey{
+    background: url("../img/greyquadrate.png") no-repeat;
+}
+.productdetails__info-product{
+    margin: 20px 0 15px 0;
+    color: #8f8f8f;
+}
+.productdetails__form{
+
+}
+.productdetails__sizecolorbox{
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+}
+.productdetails__container{
+    padding: 8px;
+}
+.productdetails__size{
+    float: left;
+}
+.productdetails__color{
+    float: right;
+}
+.colorchoose__list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.colorchoose__item{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.colorchoose__color_style-one{
+    background: #efebe2;
+}
+.colorchoose__color_style-two{
+    background: #c9c1c6;
+}
+.colorchoose__color_style-three{
+    background: #b29b88;
+}
+.colorchoose__color_style-four{
+    background: #968886;
+}
+.colorchoose__color_style-five{
+    background: #cde0ef;
+}
+
