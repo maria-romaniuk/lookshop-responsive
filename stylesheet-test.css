@@ -1,0 +1,70 @@
+.header-menu {
+    padding-top: 3.5%;
+    width: 50%;
+    float: left;
+    margin-left: 7%;
+}
+.big-menu{
+    width: 15%;
+    list-style: none;
+    float: left;
+}
+.header-menu li  {
+    list-style: none;
+}
+.header-menu li a {
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+}
+.menu-list, .menu-list1, .menu-list2, .menu-list3, .menu-list4{
+    cursor: pointer;
+    z-index: 11;
+    background: white;
+}
+.menu-list span {
+    padding: 2px 0 0 2px;
+    display: block;
+}
+.head-menu-list, .head-menu-list1, .head-menu-list2, .head-menu-list3, .head-menu-list4 {
+    margin-top: 0;
+    z-index: 10;
+    background: #ededed;
+    position: absolute;
+    padding: 0;
+    border: 1px solid #dcdcdc;
+    display: none;
+
+}
+
+.menu-list #btb {
+    background: url(img/dropdown-black.png) no-repeat;
+    width: 12px;
+    height: 12px;
+    float: right;
+}
+.menu-list1 #btb1 {
+    background: url(img/dropdown-black.png) no-repeat;
+    width: 18px;
+    height: 18px;
+    float: right;
+}
+.menu-list2 #btb2 {
+     background: url(img/dropdown-black.png) no-repeat;
+     width: 18px;
+     height: 18px;
+     float: right;
+ }
+.menu-list3 #btb3 {
+      background: url(img/dropdown-black.png) no-repeat;
+      width: 18px;
+      height: 18px;
+      float: right;
+}
+.menu-list4 #btb4 {
+       background: url(img/dropdown-black.png) no-repeat;
+       width: 18px;
+       height: 18px;
+       float: right;
+}
+
