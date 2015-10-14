@@ -1,70 +1,47 @@
-.header-menu {
-    padding-top: 3.5%;
-    width: 50%;
-    float: left;
-    margin-left: 7%;
+*{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-.big-menu{
-    width: 15%;
-    list-style: none;
-    float: left;
+/*.header-menu{*/
+    /*width: 50%;*/
+
+/*}*/
+.head-menu-block {
+    width: 270px;
+    padding: 24px 0 0;
+    font-size: 11px;
 }
-.header-menu li  {
-    list-style: none;
-}
-.header-menu li a {
-    font-size: 1em;
-    text-decoration: none;
-    color: black;
-}
-.menu-list, .menu-list1, .menu-list2, .menu-list3, .menu-list4{
+.head-menu-block .center-menu{
+    padding: 3px 6px 0 6px;
+    height: 22px;
     cursor: pointer;
+    border-radius: 4px;
+    margin: 0 20px 0 0;
+    width: 237px;
     z-index: 11;
-    background: white;
 }
-.menu-list span {
-    padding: 2px 0 0 2px;
-    display: block;
-}
-.head-menu-list, .head-menu-list1, .head-menu-list2, .head-menu-list3, .head-menu-list4 {
-    margin-top: 0;
-    z-index: 10;
-    background: #ededed;
-    position: absolute;
-    padding: 0;
-    border: 1px solid #dcdcdc;
-    display: none;
-
-}
-
-.menu-list #btb {
-    background: url(img/dropdown-black.png) no-repeat;
-    width: 12px;
-    height: 12px;
-    float: right;
-}
-.menu-list1 #btb1 {
-    background: url(img/dropdown-black.png) no-repeat;
-    width: 18px;
+.center-menu #btb{
+    background: url(img/dropdown-black.png);
+    width: 17px;
     height: 18px;
     float: right;
 }
-.menu-list2 #btb2 {
-     background: url(img/dropdown-black.png) no-repeat;
-     width: 18px;
-     height: 18px;
-     float: right;
- }
-.menu-list3 #btb3 {
-      background: url(img/dropdown-black.png) no-repeat;
-      width: 18px;
-      height: 18px;
-      float: right;
+.center-menu span{
+    padding: 2px 0 0 2px;
+    display: block;
+    font-weight: bold;
 }
-.menu-list4 #btb4 {
-       background: url(img/dropdown-black.png) no-repeat;
-       width: 18px;
-       height: 18px;
-       float: right;
+.head-menu-block ul.header-it-list{
+    margin-top: 0;
+    z-index: 10;
+    position: absolute;
+    border-radius: 3px;
+    width: 249px;
+    padding: 0;
+    border: 1px solid #000;
+    display: none;
 }
-
+ul.header-it-list{
+    padding: 6px 9px;
+    list-style-type: none;
+}

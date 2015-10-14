@@ -18,6 +18,15 @@
                 $(".delivery_list span").html(tx);
                 $(".delivery_text").html(tv);
             });
+            $('.lang_list').click(function () {
+                $(".change_list").slideToggle('fast');
+            });
+            $('ul.change_list li').click(function () {
+                var tx = $(this).html();
+                var tv = $(this).attr('alt');
+                $(".change_list").slideUp('fast');
+                $(".lang_list span").html(tx);
+            });
         })
     </script>
 </head>
@@ -29,19 +38,20 @@
                 <p> CUSTOM CARE: 888-23-4567</p>
             </div>
             <div class="account">
-                <ul class="acc-menu">
-                    <li class="select-lan">
-                        <div class="wrapper">
-                            <select name="" id="">
-                                <option value="">US</option>
-                                <option value="">FRA</option>
-                                <option value="">ITA</option>
-                            </select>
-                            <div class="arrow"></div>
+                <ul class="acc-men">
+                    <li class="menu-li">
+                        <div class="header-menu-1">
+                            <div class="lang_list">
+                                <div id="bst"></div>
+                                <span>$US</span></div>
+                            <ul class="change_list">
+                                <li>#1</li>
+                                <li>#2</li>
+                            </ul>
                         </div>
                     </li>
-                    <li><a href="">MY ACCOUNT</a></li>
-                    <li></li>
+                    <li class="menu-li my-acc"><a href=""><i class="fa fa-user"></i>MY ACCOUNT</a></li>
+                    <li class="menu-li"><a href=""><i class="fa fa-search fa-2x"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -58,24 +68,24 @@
                     <li><a href="">clearence</a></li>
                 </ul>
             </div>
-           <div class="your-cart">
-               <div class="delivery_block">
-                   <div class="delivery_list">
-                       <div id="btn"></div>
-                       <span>Your cart</span></div>
-                   <ul class="carts_list">
-                       <li>#1</li>
-                       <li>#2</li>
-                       <li>#3</li>
-                       <li>#4</li>
-                       <li>#5</li>
-                   </ul>
-                   <div class="delivery_block_2">
-                       <img src="img/bag.png" alt=""/>
-                       <a href=""> 0 ITEMS <span>|</span> $0</a>
-                   </div>
-               </div>
-           </div>
+            <div class="your-cart">
+                <div class="delivery_block">
+                    <div class="delivery_list">
+                        <div id="btn"></div>
+                        <span>Your cart</span></div>
+                    <ul class="carts_list">
+                        <li>#1</li>
+                        <li>#2</li>
+                        <li>#3</li>
+                        <li>#4</li>
+                        <li>#5</li>
+                    </ul>
+                    <div class="delivery_block_2">
+                        <img src="img/bag.png" alt=""/>
+                        <a href=""> 0 ITEMS <span>|</span> $0</a>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="header-slider">
             <ul>
@@ -89,12 +99,17 @@
     </header>
     <div class="content">
         <div class="content-line">
-            <div class="email"> Stay updated <span><input type="text" placeholder="Your email address"/></span></div>
+            <div class="email">
+                <form>Stay updated
+                  <input class="input-form" type="text" placeholder="Your email address"/>
+                  <button class="email-button"><i class="fa fa-plus"></i></button>
+                </form>
+            </div>
             <div class="find-us">
-                Find us here:
-                <div class="icons"><i class="fa fa-facebook"></i></div>
-                <div class="icons"><i class="fa fa-twitter"></i></div>
-                <div class="icons"><i class="fa fa-pinterest-p"></i></div>
+                <p>Find us here:</p>
+                <div class="icons"><a href=""><i class="fa fa-facebook"></i></a></div>
+                <div class="icons center-ic"><a href=""><i class="fa fa-twitter"></i></a></div>
+                <div class="icons"><a href=""><i class="fa fa-pinterest-p"></i></a></div>
             </div>
         </div>
         <div class="content-img-info">
@@ -128,6 +143,7 @@
                 <p>NADIA DRESS</p>
 
                 <p>$64.95</p>
+
                 <div class="buy-now"><a href="">ADD TO CART<i class="fa fa-plus"></i></a></div>
             </div>
             <div class="prod-sale">
@@ -136,6 +152,7 @@
                 <p>SOFI BLOUSE</p>
 
                 <p>$26.95</p>
+
                 <div class="buy-now"><a href="">ADD TO CART<i class="fa fa-plus"></i></a></div>
             </div>
             <div class="prod-sale">
@@ -144,6 +161,7 @@
                 <p>GOODNIGHT SHORTS</p>
 
                 <p>$ 79.95</p>
+
                 <div class="buy-now"><a href="">ADD TO CART<i class="fa fa-plus"></i></a></div>
             </div>
             <div class="prod-sale">
@@ -152,6 +170,7 @@
                 <p>MIMOSA LACE DRESS</p>
 
                 <p>$ 76</p>
+
                 <div class="buy-now"><a href="">ADD TO CART<i class="fa fa-plus"></i></a></div>
             </div>
         </div>
@@ -235,13 +254,14 @@
             </div>
             <div class="foot-social">
                 <h2>Social</h2>
+
                 <div>
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""> <i class="fa fa-pinterest-p"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-vk"></i></a>
-                    <a href=""><i class="fa fa-vimeo"></i></a>
+                    <div class="social-icon"><a href=""><i class="fa fa-twitter"></i></a></div>
+                    <div class="social-icon"><a href=""> <i class="fa fa-pinterest-p"></i></a></div>
+                    <div class="social-icon"><a href=""><i class="fa fa-facebook"></i></a></div>
+                    <div class="social-icon"><a href=""><i class="fa fa-google-plus"></i></a></div>
+                    <div class="social-icon"><a href=""><i class="fa fa-vk"></i></a></div>
+                    <div class="social-icon"><a href=""><i class="fa fa-vimeo"></i></a></div>
                 </div>
             </div>
             <div class="foot-img">

@@ -6,7 +6,6 @@
 }
 .container{
     background: white;
-
 }
 header{
     overflow: hidden;
@@ -25,62 +24,81 @@ header{
 .custom-care p{
     font-size: 0.73em;
 }
-
-.account {
-    position: relative;
+.account{
     float: right;
     background: black;
-    color: white;
-}
-.select-lan{
-    width: 3%;
-}
-.acc-menu{
+    font-size: 0.8em;
+    width: 25%;
     overflow: hidden;
+    padding-top: 0.6%;
+    margin-right: -2%;
 }
-.acc-menu li{
-    list-style: none;
+.acc-men{
+    width: 70%;
+}
+.menu-li{
     float: left;
-
+    list-style: none;
+    margin: 0 2%;
 }
-.acc-menu li a{
-    color: white;
-    text-decoration: none;
-    margin-left: 10px;
+.my-acc{
+    width: 115px;
 }
-.wrapper{
-    color: white;
-    position: relative;
-    overflow: hidden;
-    border: 1px solid white;
-    width: 100%;
-    height: 19px;
+.header-menu-1{
+    width: 60px;
+    color: #ffffff;
+    font-size: 1em;
+    height: 32px;
+    background: black;
 }
-.wrapper option {
-    color: white;
+.header-menu-1 .lang_list {
+    height: 32px;
+    cursor: pointer;
+    width: 60px;
+    z-index: 11;
+    background: black;
 }
-
-select{
-    color: white;
-    width: 100%;
-    height: 19px;
-    border: none;
-    background: #000000;
-    margin-left: 2%;
+.lang_list #bst {
+    background: url(img/dropdown-white.png) no-repeat;
+    width: 40%;
+    height: 40%;
+    float: right;
+    margin-right: 1%;
 }
-.wrapper select {
-    background: transparent;
-    appearance: none;
-    -webkit-appearance: none;
+.lang_list span {
+    padding: 2px 0 0 2px;
+    display: block;
 }
-.arrow {
+.header-menu-1 ul.change_list{
+    margin-top: 0;
+    z-index: 10;
+    background: black;
     position: absolute;
-    right: 5px;
-    bottom: 3px;
-    border: 4px solid;
-    border-color:  white black black black;
-
+    width: 60px;
+    padding: 0;
+    border: 1px solid #ffffff;
+    display: none;
 }
+ul.change_list li {
+    padding: 5px 9px;
+    list-style-type: none;
+    border-top: 1px solid #ffffff;
+}
+ul.change_list li:hover {
+    cursor: pointer;
+    background: #636363;
+}
+
+.menu-li i{
+    font-size: 1.4em;
+    margin: 0 4%;
+}
+
+.account a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .logo-line {
     width: 98%;
     height: 113px;
@@ -89,6 +107,9 @@ select{
     padding-top: 3%;
     float: left;
     margin-left: 6%;
+}
+.logo img{
+    width: 100%;
 }
 .header-menu {
     padding-top: 3.5%;
@@ -140,7 +161,7 @@ select{
     display: block;
 }
 .delivery_block ul.carts_list {
-    margin-top: 0px;
+    margin-top: 0;
     z-index: 10;
     background: #ededed;
     position: absolute;
@@ -197,21 +218,62 @@ ul.carts_list li:hover {
     overflow: hidden;
 }
 .email{
+    display: inline-block;
     color: #7c7c7c;
     float: left;
-    padding-top: 1.7%;
+    padding-top: 1.2%;
     padding-left: 6%;
 }
+.email-button{
+    width: 30px;
+    height: 30px;
+    background: #fe926e;
+    box-shadow: 0 3px 2px #dd6b44;
+    cursor: pointer;
+    border: none;
+    margin-left: -1.1%;
+}
+.email-button i{
+    color: white;
+    background: #fe926e;
+}
+.input-form{
+    width: 150px;
+    height: 30px;
+    border: 1px solid white;
+}
 .find-us{
-    padding-top: 1.7%;
     float: right;
-    padding-right: 5%;
     overflow: hidden;
     color: #7c7c7c;
+    height: 58px;
+    width: 28.7%;
+}
+.find-us p{
+    display: block;
+    padding-top: 6%;
+    float: left;
+    margin-right: 2%;
 }
 .icons{
-    display: inline;
+    float: left;
+    height: 58px;
+    width: 50px;
+    background: #f7f7f7;
 
+}
+.center-ic{
+    background: #ededed;
+}
+.icons a{
+    color: #6b6b6b;
+    text-decoration: none;
+
+}
+.icons i{
+    font-size: 1.4em;
+    padding-top: 41%;
+    padding-left: 37%;
 }
 .content-img-info{
     height: 432px;
@@ -427,6 +489,14 @@ footer li {
     float: left;
     padding-top: 2%;
     margin-left: 4.5%;
+    width: 13%;
+    overflow: hidden;
+}
+.foot-social i{
+    margin-top: 7px;
+    margin-left: 7px;
+    float: left;
+    color: white;
 }
 .foot-img{
     float: right;
@@ -460,4 +530,12 @@ footer li {
 }
 .foot-right{
     margin-right: 8%;
+}
+.social-icon{
+    margin: 2% 4%;
+    width: 30px;
+    height: 30px;
+    float: left;
+    background: #4c4c4b;
+    border-radius: 50%;
 }

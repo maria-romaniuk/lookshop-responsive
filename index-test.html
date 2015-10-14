@@ -7,50 +7,14 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script>
         $(function () {
-            $('.menu-list').click(function () {
-                $(".head-menu-list").slideToggle('fast');
+            $('center-menu').click(function () {
+                $(".header-it-list").slideToggle('fast');
             });
-            $('ul.head-menu-list li').click(function () {
+            $('ul.header-it-list li').click(function () {
                 var tx = $(this).html();
                 var tv = $(this).attr('alt');
-                $(".head-menu-list").slideUp('fast');
-                $(".menu-list span").html(tx);
-            });
-            $('.menu-list1').click(function () {
-                $(".head-menu-list1").slideToggle('fast');
-            });
-            $('ul.head-menu-list1 li').click(function () {
-                var tx = $(this).html();
-                var tv = $(this).attr('alt');
-                $(".head-menu-list1").slideUp('fast');
-                $(".menu-list1 span").html(tx);
-            });
-            $('.menu-list2').click(function () {
-                $(".head-menu-list2").slideToggle('fast');
-            });
-            $('ul.head-menu-list2 li').click(function () {
-                var tx = $(this).html();
-                var tv = $(this).attr('alt');
-                $(".head-menu-list2").slideUp('fast');
-                $(".menu-list2 span").html(tx);
-            });
-            $('.menu-list3').click(function () {
-                $(".head-menu-list3").slideToggle('fast');
-            });
-            $('ul.head-menu-list3 li').click(function () {
-                var tx = $(this).html();
-                var tv = $(this).attr('alt');
-                $(".head-menu-list3").slideUp('fast');
-                $(".menu-list3 span").html(tx);
-            });
-            $('.menu-list4').click(function () {
-                $(".head-menu-list4").slideToggle('fast');
-            });
-            $('ul.head-menu-list4 li').click(function () {
-                var tx = $(this).html();
-                var tv = $(this).attr('alt');
-                $(".head-menu-list4").slideUp('fast');
-                $(".menu-list4 span").html(tx);
+                $(".header-it-list").slideUp('fast');
+                $(".center-menu span").html(tx);
             });
         })
     </script>
@@ -58,64 +22,20 @@
 <body>
 <div class="header-menu">
     <ul>
-        <li class="big-menu">
-            <div class="menu-list">
+        <li>
+            <div class="head-menu-block">
+                <ul class="header-it-list">
+                <li>#1</li>
+                <li>#2</li>
+                <li>#3</li>
+            </ul>
+            </div>
+            <div class="center-menu">
                 <div id="btb"></div>
                 <span>new</span>
             </div>
-            <ul class="head-menu-list">
-                <li>#1</li>
-                <li>#2</li>
-                <li>#3</li>
-            </ul>
-        </li>
-        <li class="big-menu">
-            <div class="menu-list1">
-                <div id="btb1"></div>
-                <span>designers</span>
-            </div>
-            <ul class="head-menu-list1">
-                <li>#1</li>
-                <li>#2</li>
-                <li>#3</li>
-            </ul>
-        </li>
-        <li class="big-menu">
-            <div class="menu-list2">
-                <div id="btb2"></div>
-                <span>women</span>
-            </div>
-            <ul class="head-menu-list2">
-                <li>#1</li>
-                <li>#2</li>
-                <li>#3</li>
-            </ul>
-        </li>
-        <li class="big-menu">
-            <div class="menu-list3">
-                <div id="btb3"></div>
-                <span>men</span>
-            </div>
-            <ul class="head-menu-list3">
-                <li>#1</li>
-                <li>#2</li>
-                <li>#3</li>
-            </ul>
-        </li>
-        <li class="big-menu">
-            <div class="menu-list4">
-                <div id="btb4"></div>
-                <span>clearence</span>
-            </div>
-            <ul class="head-menu-list4">
-                <li>#1</li>
-                <li>#2</li>
-                <li>#3</li>
-            </ul>
         </li>
     </ul>
-</div>
-
 </div>
 </body>
 </html>
