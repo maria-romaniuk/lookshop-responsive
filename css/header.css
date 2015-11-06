@@ -1,0 +1,134 @@
+.header{
+    height: 113px;
+    white-space: nowrap;
+}
+.header__logo{
+    line-height: 113px;
+}
+.headermenu{
+    line-height: 94px;
+    font-size: 17px;
+}
+.headermenu__small800{
+    display: none;
+}
+.headermenu__list{
+    margin: 0;
+    text-align: right;
+}
+.headermenu__item{
+    display: inline-block;
+    padding-right: 25px;
+    cursor: pointer;
+}
+.header__select{
+    margin-top: 18px;
+}
+
+.select__cart{
+    width: 229px;
+    height: 35px;
+    border: 1px solid #d6d6d6;
+    cursor: pointer;
+}
+.select__basket{
+    width: 229px;
+    height: 35px;
+    border: 1px solid #d6d6d6;
+    background: #fafafa;
+    border-top: none;
+    cursor: pointer;
+}
+.selectcart__text{
+    display: inline-block;
+    color: #949393;
+    line-height: 34px;
+    padding-left: 5px;
+}
+.selectcart__icon{
+    display: inline-block;
+    color: #949393;
+    line-height: 25px;
+    padding-right: 5px;
+}
+.selectbasket__icon{
+    display: inline-block;
+    line-height: 45px;
+    text-align: left;
+    padding-left: 5px;
+}
+.selectbasket__img{
+    display: inline-block;
+    text-align: left;
+}
+.basketlink{
+    display: inline-block;
+    line-height: 35px;
+}
+.basket__a{
+    display: inline-block;
+    text-decoration: none;
+    color: #949393;
+    text-transform: uppercase;
+    padding-right: 5px;
+}
+.basket__a:hover{
+    text-decoration: underline;
+}
+.divide{
+    display: inline-block;
+    color: #949393;
+}
+
+@media screen and (max-width: 1050px) {
+
+}
+@media screen and (max-width: 980px){
+    .headermenu__list{
+        padding-left: 20px;
+    }
+    .select__cart{
+        width: 200px;
+    }
+    .select__basket{
+        width: 200px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .header{
+        height: 155px;
+    }
+    .header__menu{
+        display: none;
+    }
+    .headermenu__small800{
+        display: inherit;
+        float: left;
+        width: 100%;
+    }
+    .headermenusmall800{
+        border: 1px solid #fd926d;
+        background: #fd926d;
+        color: white;
+        height: 40px;
+        cursor: pointer;
+    }
+    .headermenusmall__text{
+        display: inline-block;
+        line-height: 38px;
+        text-transform: uppercase;
+        padding-left: 10px;
+    }
+    .headermenusmall__icon{
+        display: inline-block;
+        font-size: 22px;
+        line-height: 38px;
+        padding-right: 10px;
+    }
+    .select__cart{
+        width: 229px;
+    }
+    .select__basket{
+        width: 229px;
+    }
+}

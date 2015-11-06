@@ -1,0 +1,59 @@
+.followline {
+    background: #ededed;
+    border-top: 1px solid #f4f4f4;
+    line-height: 59px;
+    color: #6c6c6c;
+    font-size: 13px;
+}
+.followline__stay{
+    display: inline-block;
+}
+.followline__addressform{
+    display: inline-block;
+}
+.followline__form{
+    display: flex;
+}
+.followline__input{
+    width: 140px;
+    height: 30px;
+    border: 1px solid white;
+}
+.followline__btn{
+    width: 29px;
+    line-height: 27px;
+    border: 1px solid #f49f81;
+    background: #fd926d;
+    padding: 0;
+}
+.followline__btn__plus{
+    color: white;
+}
+
+
+.followline__find{
+    display: inline-block;
+}
+.followline__icons{
+   display: inline-block;
+    border-left: 1px solid #f3f3f3;
+    border-right: 1px solid #f3f3f3;
+}
+.followline__iconlink{
+    display: inline-block;
+    width: 58px;
+    text-align: center;
+    background: #ededed;
+    transition: all .3s linear;
+}
+.followline__iconlink:hover{
+    background: #fd926d;
+    text-decoration-color: white;
+}
+.followline__icon{
+    font-size: 1.5em;
+    color: #6c6c6c;
+}
+.iconlink-bg{
+    background: #f7f7f7;
+}

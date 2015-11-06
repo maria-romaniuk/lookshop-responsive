@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> try</title>
+    <link rel="stylesheet" href="stylesheet-archive.css"/>
+    <script type="text/javascript" src="../js/jquery-latest.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script>
+        var slideWidth=1280;
+        var sliderTimer;
+        $(function(){
+            $('.slidewrapper').width($('.slidewrapper').children().size()*slideWidth);
+            sliderTimer=setInterval(nextSlide,2000);
+            $('.viewport').hover(function(){
+                clearInterval(sliderTimer);
+            },function(){
+                sliderTimer=setInterval(nextSlide,2000);
+            });
+            $('#next_slide').click(function(){
+                clearInterval(sliderTimer);
+                nextSlide();
+                sliderTimer=setInterval(nextSlide,2000);
+            });
+            $('#prev_slide').click(function(){
+                clearInterval(sliderTimer);
+                prevSlide();
+                sliderTimer=setInterval(nextSlide,2000);
+            });
+        });
+
+        function nextSlide(){
+            var currentSlide=parseInt($('.slidewrapper').data('current'));
+            currentSlide++;
+            if(currentSlide>=$('.slidewrapper').children().size())
+            {
+                $('.slidewrapper').css('left',-(currentSlide-2)*slideWidth);
+                $('.slidewrapper').append($('.slidewrapper').children().first().clone());
+                $('.slidewrapper').children().first().remove();
+                currentSlide--;
+            }
+            $('.slidewrapper').animate({left: -currentSlide*slideWidth},300).data('current',currentSlide);
+
+
+        }
+
+        function prevSlide(){
+            var currentSlide=parseInt($('.slidewrapper').data('current'));
+            currentSlide--;
+            if(currentSlide<0)
+            {
+                $('.slidewrapper').css('left',-(currentSlide+2)*slideWidth);
+                $('.slidewrapper').prepend($('.slidewrapper').children().last().clone());
+                $('.slidewrapper').children().last().remove();
+                currentSlide++;
+            }
+            $('.slidewrapper').animate({left: -currentSlide*slideWidth},300).data('current',currentSlide);
+        }
+    </script>
+</head>
+<body>
+<div class='viewport'>
+    <ul class="slidewrapper" data-current=0>
+        <li class='slide'>
+            <img src="../img/slide1.jpg" alt=""/>
+        </li>
+        <li class='slide second'>
+            <img src="../img/slide1.jpg" alt=""/>
+        </li>
+        <li class='slide third'>
+            <img src="../img/slide1.jpg" alt=""/>
+        </li>
+    </ul>
+</div>
+<a href='javascript: void(0)' id='prev_slide' class='arrows'>←</a>
+<a href='javascript: void(0)' id='next_slide' class='arrows'>→</a>
+</body>
+</html>

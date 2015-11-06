@@ -1,0 +1,13 @@
+.favouritebrands__line{
+    display: inline-block;
+    width: 537px;
+    border-top: 1px solid #e8e8e8;
+}
+.favouritebrands__text{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #414141;
+}
+.favouritebrands__item{
+    display: inline-block;
+}

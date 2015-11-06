@@ -1,0 +1,12 @@
+.customcare {
+    line-height: 32px;
+    white-space: nowrap;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.customcare__title {
+    display: inline-block;
+}
+.customcare__number {
+    display: inline-block;
+}

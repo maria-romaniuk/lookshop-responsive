@@ -1,0 +1,120 @@
+
+.footer__second{
+    background: #ededed;
+    height: 211px;
+    font-size: 13px;
+    line-height: 14px;
+
+}
+.footer__list{
+    display: inline-block;
+    line-height: 27px;
+    margin-top: 22px;
+    padding-left: 0;
+    white-space: nowrap;
+}
+.footerlist{
+    display: inline-block;
+    vertical-align: top;
+}
+.footer__span{
+    text-align: center;
+    font-size: 16px;
+    color: #544f4d;
+    line-height: 16px;
+}
+.footer__ul{
+    padding-left: 0;
+    margin-top: 10px;
+    line-height: 13px;
+}
+.footer__li{
+    margin-bottom: 5px;
+    list-style: none;
+}
+.footer__a{
+    color: #827e7d;
+    text-decoration: none;
+    display: inherit;
+    transition: all .3s linear;
+}
+.footer__a:hover{
+    text-decoration: underline;
+}
+.footer__customservice{
+    display: inline-block;
+
+
+}
+.footer__information{
+    display: inline-block;
+    margin-left: 50px;
+}
+.footer__campaigns{
+    display: inline-block;
+    margin-left: 50px;
+}
+.footer__stores{
+    display: inline-block;
+    margin-left: 50px;
+}
+.footer__social{
+    display: inline-block;
+
+    margin-left: 50px;
+}
+.footer__socialli{
+    display: inline-block;
+    line-height: 40px;
+    margin: 2px;
+}
+.socialli__a{
+    color: white;
+    text-align: center;
+    background: #4c4c4b;
+    display: inline-block;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    font-size: 17px;
+    line-height: 37px;
+    transition: all .2s linear;
+}
+.socialli__a:hover{
+    background: #fe926e;
+}
+.footer__secured{
+    margin-left: 50px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 1050px) {
+    .footer__information{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 980px) {
+    .footer__second{
+        font-size: 12px;
+    }
+    .footer__secured{
+        margin-left: 25px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .footer__second{
+        height: 320px;
+    }
+   .footer__listleft{
+       width: 300px;
+       float: left;
+       white-space: inherit;
+   }
+   .footer__campaigns{
+       margin-left: 0;
+       margin-top: 10px;
+   }
+    .footer__stores{
+        margin-top: 10px;
+    }
+}

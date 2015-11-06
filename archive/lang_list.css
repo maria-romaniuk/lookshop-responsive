@@ -1,0 +1,53 @@
+.lang_list {
+    /*width: 80%;*/
+    display: inline-block;
+    cursor: pointer;
+    /*padding-top: 11%;*/
+    line-height: 32px;
+    white-space: nowrap;
+
+
+    font-size: 1.1em;
+}
+@media screen and (max-width: 768px){
+    .lang_list {
+        line-height: 30px;
+    }
+}
+@media screen and (max-width: 640px){
+    .lang_list {
+        line-height: 70px;
+        width: 65%;
+    }
+}
+
+
+
+
+
+
+.lang_list__current {
+    padding-left: 3%;
+    position: relative;
+    top: 1px;
+}
+
+@media screen and (max-width: 640px) {
+    .lang_list__current {
+        width: 100%;
+    }
+}
+
+
+.lang_list__icon {
+    /*font-size: 1em;*/
+    /*line-height: 0.9em;*/
+    position: relative;
+    top: -1px;
+}
+
+@media screen and (max-width: 640px){
+    .lang_list__icon {
+        top: -3px
+    }
+}

@@ -1,0 +1,22 @@
+.viewport{
+    width: 1280px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+.slidewrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+.slide{
+    width: 1280px;
+    height: 400px;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

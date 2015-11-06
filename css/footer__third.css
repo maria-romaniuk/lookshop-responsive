@@ -1,0 +1,46 @@
+
+.footer__third{
+    background: black;
+    height: 79px;
+}
+.footermenu{
+    line-height: 60px;
+}
+.footermenu__ul{
+    padding-left: 0;
+    margin: 0;
+}
+.footermenu__li{
+    display: inline-block;
+}
+.footermenu__a{
+    color: #8d8d8d;
+    text-decoration: none;
+    font-size: 12px;
+    transition: all .3s linear;
+    border-left: 1px solid #8d8d8d;
+    padding: 0 11px;
+}
+.footermenu__afirst{
+    padding-left: 0;
+    border: none;
+}
+.footermenu__a:hover{
+    text-decoration: underline;
+}
+.footer__mark{
+    color: #8d8d8d;
+    line-height: 20px;
+    font-size: 12px;
+    list-style: none;
+    text-align: right;
+}
+
+@media screen and (max-width: 800px){
+    .footermenu__a{
+        font-size: 11px;
+    }
+    .footer__mark{
+        font-size: 11px;
+    }
+}
