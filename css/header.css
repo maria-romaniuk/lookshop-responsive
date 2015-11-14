@@ -3,7 +3,8 @@
     white-space: nowrap;
 }
 .header__logo{
-    line-height: 113px;
+    padding-top: 22px;
+    line-height: 91px;
 }
 .headermenu{
     line-height: 94px;
@@ -21,8 +22,13 @@
     padding-right: 25px;
     cursor: pointer;
 }
+.headeritem__icon{
+    line-height: 87px;
+    vertical-align: top;
+}
 .header__select{
-    margin-top: 18px;
+    margin-top: 21px;
+    font-size: 13px;
 }
 
 .select__cart{
@@ -43,19 +49,20 @@
     display: inline-block;
     color: #949393;
     line-height: 34px;
-    padding-left: 5px;
+    padding-left: 7px;
+    letter-spacing: -0.02em;
 }
 .selectcart__icon{
     display: inline-block;
     color: #949393;
-    line-height: 25px;
-    padding-right: 5px;
+    line-height: 29px;
+    padding-right: 13px;
 }
 .selectbasket__icon{
     display: inline-block;
-    line-height: 45px;
+    line-height: 50px;
     text-align: left;
-    padding-left: 5px;
+    padding-left: 7px;
 }
 .selectbasket__img{
     display: inline-block;
@@ -63,14 +70,25 @@
 }
 .basketlink{
     display: inline-block;
-    line-height: 35px;
+    line-height: 37px;
+}
+.basket__aitem{
+    display: inline-block;
+    text-decoration: none;
+    color: #949393;
+    text-transform: uppercase;
+    padding-right: 2px;
+    padding-left: 4px;
+    letter-spacing: -0.05em;
 }
 .basket__a{
     display: inline-block;
     text-decoration: none;
     color: #949393;
     text-transform: uppercase;
-    padding-right: 5px;
+    padding-right: 14px;
+    padding-left: 3px;
+    letter-spacing: 0.05em;
 }
 .basket__a:hover{
     text-decoration: underline;
