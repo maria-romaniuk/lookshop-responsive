@@ -1,0 +1,15 @@
+.care{
+    line-height: 29px;
+    white-space: nowrap;
+    font-size: 12px;
+}
+.care__text{
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+}
+.care__number{
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+}

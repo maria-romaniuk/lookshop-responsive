@@ -1,0 +1,15 @@
+.mainnav{
+    font-size: 16px;
+    line-height: 106px;
+}
+.mainnav__list{
+    padding: 0;
+    margin: 0;
+}
+.mainnav__item{
+    display: inline-block;
+}
+.mainnav__link{
+    text-decoration: none;
+    color: black;
+}

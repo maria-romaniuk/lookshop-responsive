@@ -1,0 +1,25 @@
+.header__line{
+    height: 30px;
+    background: black;
+}
+.header__care{
+    float: left;
+}
+.header__account{
+    float: right;
+}
+.header__content{
+    height: 107px;
+}
+.header__logo{
+    float: left;
+}
+.header__rightnav-cart{
+    float: right;
+}
+.header__menu{
+    float: left;
+}
+.header__cart{
+    float: right;
+}

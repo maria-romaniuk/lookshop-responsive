@@ -1,7 +1,7 @@
-@import "_normalize.css";
+@import "../bem_css/_normalize.css";
 @import "_global.css";
 @import "font-awesome-4.4.0/css/font-awesome.css";
-@import "_layout.css";
+@import "../bem_css/_layout.css";
 
 @import "aboutlookshop.css";
 @import "bannerpallete.css";
