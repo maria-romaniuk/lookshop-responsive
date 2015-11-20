@@ -1,0 +1,22 @@
+.icon{
+    font-size: 14px;
+}
+.icon_headeraccdown{
+    padding-left: 4px;
+}
+.icon_user{
+    color: #666666;
+    padding-left: 4px;
+}
+.icon_search{
+    font-size: 15px;
+}
+.icon_home{
+    color: #79706d;
+}
+.icon_basket{
+    background: url("../img/bag.png");
+    width: 23px;
+    height: 21px;
+    display: inline-block;
+}

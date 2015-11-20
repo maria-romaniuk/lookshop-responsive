@@ -1,7 +1,7 @@
 .account{
     float: right;
-    font-size: 13px;
-    line-height: 29px;
+    font-size: 11px;
+    line-height: 28px;
 }
 .account__list{
     list-style: none;
@@ -12,7 +12,12 @@
 .account__item{
     display: inline-block;
     color: white;
-    margin: 0 8px;
+    padding: 0 16px;
+    border-right: 1px solid #444444;
+    border-left: 1px solid #444444;
+}
+.account__item_border{
+    border: none;
 }
 
 .account__dropdown{
