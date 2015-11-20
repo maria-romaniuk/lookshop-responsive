@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8343459f-df03-4d3d-91e3-42117b48ca91" name="Default" comment="" />
+    <list default="true" id="8343459f-df03-4d3d-91e3-42117b48ca91" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bem_css/account.css" afterPath="$PROJECT_DIR$/bem_css/account.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bem.html" afterPath="$PROJECT_DIR$/bem.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bem_css/care.css" afterPath="$PROJECT_DIR$/bem_css/care.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bem_css/cart.css" afterPath="$PROJECT_DIR$/bem_css/cart.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bem_css/icon.css" afterPath="$PROJECT_DIR$/bem_css/icon.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bem_css/linkblock.css" afterPath="$PROJECT_DIR$/bem_css/linkblock.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bem_css/mainnav.css" afterPath="$PROJECT_DIR$/bem_css/mainnav.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="lookshop-responsive.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -23,6 +32,7 @@
   <component name="FileEditorManager">
     <leaf>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="_global.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/_global.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -30,9 +40,12 @@
               <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
 =======
       <file leaf-file-name="header.css" pinned="false" current-in-tab="true">
+=======
+      <file leaf-file-name="header.css" pinned="false" current-in-tab="false">
+>>>>>>> da7acd15372c8f29191a663c814b40debc512496
         <entry file="file://$PROJECT_DIR$/bem_css/header.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36753446">
+            <state vertical-scroll-proportion="0.0">
               <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
 >>>>>>> 5fb2012fb3aced5f4f8f288ea45b19646065da3f
               <folding />
@@ -40,9 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bem.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bem.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bem.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
             <state vertical-scroll-proportion="-35.5">
               <caret line="119" column="27" selection-start-line="119" selection-start-column="27" selection-end-line="119" selection-end-column="27" />
@@ -50,11 +64,16 @@
             <state vertical-scroll-proportion="-8.125">
               <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
 >>>>>>> 5fb2012fb3aced5f4f8f288ea45b19646065da3f
+=======
+            <state vertical-scroll-proportion="0.47694755">
+              <caret line="105" column="47" selection-start-line="105" selection-start-column="47" selection-end-line="105" selection-end-column="47" />
+>>>>>>> da7acd15372c8f29191a663c814b40debc512496
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="product_desktop.psd" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lookshop/product_desktop.psd">
@@ -63,9 +82,13 @@
 =======
       <file leaf-file-name="account.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bem_css/account.css">
+=======
+      <file leaf-file-name="linkblock.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bem_css/linkblock.css">
+>>>>>>> da7acd15372c8f29191a663c814b40debc512496
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -75,7 +98,17 @@
         <entry file="file://$PROJECT_DIR$/bem_css/cart.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="account.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bem_css/account.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -85,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/bem_css/icon.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -95,17 +128,7 @@
         <entry file="file://$PROJECT_DIR$/bem_css/mainnav.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logo.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bem_css/logo.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,7 +138,7 @@
         <entry file="file://$PROJECT_DIR$/bem_css/care.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
               <folding />
             </state>
 >>>>>>> 5fb2012fb3aced5f4f8f288ea45b19646065da3f
@@ -147,6 +170,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -174,9 +200,7 @@
         <option value="$PROJECT_DIR$/css/headernav.css" />
         <option value="$PROJECT_DIR$/bem_css/content.css" />
         <option value="$PROJECT_DIR$/bem_css/container.css" />
-        <option value="$PROJECT_DIR$/bem_css/linkblock.css" />
         <option value="$PROJECT_DIR$/bem_css/productdetails.css" />
-        <option value="$PROJECT_DIR$/bem_css/icon.css" />
         <option value="$PROJECT_DIR$/bem_css/quantity.css" />
         <option value="$PROJECT_DIR$/bem_css/btn.css" />
         <option value="$PROJECT_DIR$/bem_css/shareblock.css" />
@@ -192,18 +216,26 @@
         <option value="$PROJECT_DIR$/bem_css/copyright.css" />
         <option value="$PROJECT_DIR$/css/_layout.css" />
         <option value="$PROJECT_DIR$/bem_css/bem.css" />
-        <option value="$PROJECT_DIR$/bem_css/care.css" />
         <option value="$PROJECT_DIR$/bem_css/global.css" />
-        <option value="$PROJECT_DIR$/bem_css/account.css" />
         <option value="$PROJECT_DIR$/bem_css/logo.css" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/bem_css/mainnav.css" />
         <option value="$PROJECT_DIR$/bem_css/cart.css" />
 <<<<<<< HEAD
 =======
         <option value="$PROJECT_DIR$/bem.html" />
+=======
+>>>>>>> da7acd15372c8f29191a663c814b40debc512496
         <option value="$PROJECT_DIR$/bem_css/header.css" />
 >>>>>>> 5fb2012fb3aced5f4f8f288ea45b19646065da3f
         <option value="$PROJECT_DIR$/bem_css/_layout.css" />
+        <option value="$PROJECT_DIR$/bem_css/cart.css" />
+        <option value="$PROJECT_DIR$/bem_css/care.css" />
+        <option value="$PROJECT_DIR$/bem_css/account.css" />
+        <option value="$PROJECT_DIR$/bem_css/mainnav.css" />
+        <option value="$PROJECT_DIR$/bem_css/linkblock.css" />
+        <option value="$PROJECT_DIR$/bem_css/icon.css" />
+        <option value="$PROJECT_DIR$/bem.html" />
       </list>
     </option>
   </component>
@@ -243,35 +275,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="lookshop-responsive">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="lookshop-responsive">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="css">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -320,6 +323,35 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="lookshop-responsive">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="lookshop-responsive">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="css">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -394,13 +426,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -419,6 +451,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/bem_css/cart.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -427,6 +460,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> da7acd15372c8f29191a663c814b40debc512496
     <entry file="file://$PROJECT_DIR$/bem_css/icon.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -451,6 +486,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/bem_css/account.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -459,6 +495,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> da7acd15372c8f29191a663c814b40debc512496
     <entry file="file://$PROJECT_DIR$/bem_css/care.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -470,7 +508,11 @@
     <entry file="file://$PROJECT_DIR$/bem_css/_layout.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
           <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+=======
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+>>>>>>> da7acd15372c8f29191a663c814b40debc512496
           <folding />
         </state>
       </provider>
@@ -600,13 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="118" column="63" selection-start-line="118" selection-start-column="50" selection-end-line="118" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -618,13 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25267994">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archive/index-archive.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023847377">
-          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -651,13 +679,6 @@
     <entry file="file://$PROJECT_DIR$/img/carts.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archive/index-old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-80.75">
-          <caret line="335" column="36" selection-start-line="335" selection-start-column="20" selection-end-line="335" selection-end-column="39" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lookshop/homepage_desktop1280.jpg">
@@ -703,14 +724,22 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/bem_css/header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+=======
+    <entry file="file://$PROJECT_DIR$/bem_css/logo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+>>>>>>> da7acd15372c8f29191a663c814b40debc512496
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/bem_css/cart.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -722,6 +751,52 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
 >>>>>>> 5fb2012fb3aced5f4f8f288ea45b19646065da3f
+=======
+    <entry file="file://$PROJECT_DIR$/archive/index-archive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.3354531">
+          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.836248">
+          <caret line="118" column="63" selection-start-line="118" selection-start-column="50" selection-end-line="118" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive/index-old.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7519873">
+          <caret line="335" column="36" selection-start-line="335" selection-start-column="20" selection-end-line="335" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bem_css/_layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bem_css/care.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bem_css/bem.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6202144">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="62" />
+>>>>>>> da7acd15372c8f29191a663c814b40debc512496
           <folding />
         </state>
       </provider>
@@ -742,25 +817,34 @@
     <entry file="file://$PROJECT_DIR$/bem_css/mainnav.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
 >>>>>>> 5fb2012fb3aced5f4f8f288ea45b19646065da3f
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+=======
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+>>>>>>> da7acd15372c8f29191a663c814b40debc512496
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bem_css/icon.css">
+    <entry file="file://$PROJECT_DIR$/bem_css/header.css">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
         <state vertical-scroll-proportion="0.017006803">
           <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
 =======
         <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 >>>>>>> 5fb2012fb3aced5f4f8f288ea45b19646065da3f
+=======
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+>>>>>>> da7acd15372c8f29191a663c814b40debc512496
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/bem_css/account.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -772,10 +856,17 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
 >>>>>>> 5fb2012fb3aced5f4f8f288ea45b19646065da3f
+=======
+    <entry file="file://$PROJECT_DIR$/bem_css/account.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+>>>>>>> da7acd15372c8f29191a663c814b40debc512496
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/bem_css/care.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -787,12 +878,19 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
 >>>>>>> 5fb2012fb3aced5f4f8f288ea45b19646065da3f
+=======
+    <entry file="file://$PROJECT_DIR$/bem_css/icon.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+>>>>>>> da7acd15372c8f29191a663c814b40debc512496
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bem.html">
+    <entry file="file://$PROJECT_DIR$/bem_css/cart.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state vertical-scroll-proportion="-35.5">
           <caret line="119" column="27" selection-start-line="119" selection-start-column="27" selection-end-line="119" selection-end-column="27" />
@@ -800,10 +898,15 @@
         <state vertical-scroll-proportion="-8.125">
           <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
 >>>>>>> 5fb2012fb3aced5f4f8f288ea45b19646065da3f
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+>>>>>>> da7acd15372c8f29191a663c814b40debc512496
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/css/_global.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -815,10 +918,17 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
 >>>>>>> 5fb2012fb3aced5f4f8f288ea45b19646065da3f
+=======
+    <entry file="file://$PROJECT_DIR$/bem_css/linkblock.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+>>>>>>> da7acd15372c8f29191a663c814b40debc512496
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/bem_css/_layout.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -830,6 +940,12 @@
         <state vertical-scroll-proportion="0.36753446">
           <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
 >>>>>>> 5fb2012fb3aced5f4f8f288ea45b19646065da3f
+=======
+    <entry file="file://$PROJECT_DIR$/bem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47694755">
+          <caret line="105" column="47" selection-start-line="105" selection-start-column="47" selection-end-line="105" selection-end-column="47" />
+>>>>>>> da7acd15372c8f29191a663c814b40debc512496
           <folding />
         </state>
       </provider>

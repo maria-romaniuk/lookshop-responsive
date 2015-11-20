@@ -1,6 +1,7 @@
 .mainnav{
     font-size: 16px;
     line-height: 106px;
+    margin-right: 20px;
 }
 .mainnav__list{
     padding: 0;
@@ -8,7 +9,9 @@
 }
 .mainnav__item{
     display: inline-block;
+    padding: 0 14px;
 }
+
 .mainnav__link{
     text-decoration: none;
     color: black;
